@@ -12,7 +12,7 @@ public class StringManagerTest {
     @Test
     public void shouldReturnNumberofWord(){
         StringManager stringManager = new StringManager("hello i am Prayas");
-        assertEquals(5,stringManager.getNumberOfWord());
+        assertEquals(4,stringManager.getNumberOfWord());
     }
 
     @Test
