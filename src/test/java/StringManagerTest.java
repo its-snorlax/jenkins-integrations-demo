@@ -14,7 +14,6 @@ public class StringManagerTest {
         StringManager stringManager = new StringManager("hello i am Prayas");
         assertEquals(4,stringManager.getNumberOfWord());
     }
-    
 
     @Test
     public void shouldReturnNumberOfLines(){
